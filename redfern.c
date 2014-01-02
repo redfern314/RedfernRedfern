@@ -10,6 +10,9 @@
 #define NUM_LEDs 10         // total number of LEDs
 #define BLINK_DELAY 500     // delay between blinks (in milliseconds)
 
+// Pins in use (name):   PB0,PB1,PB2,PB3,PB4,PB5,PB6,PB7,PC0,PC1
+// Pins in use (number): 08, 09, 16, 23, 24, 26, 27, 28, 30, 03
+
 volatile uint8_t pinarray[NUM_LEDs] = {PB0, PB1, PB2, PB3, 
                                     PB4, PB5, PB6, PB7, 
                                     PC0, PC1};
